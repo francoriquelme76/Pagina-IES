@@ -609,7 +609,6 @@ progress {
 .img-fluid {
     max-width: 250px;
     height: 250px;
-    margin-left: 150px;
     margin-top: 30px;
 }
 
@@ -4756,7 +4755,8 @@ fieldset:disabled .btn {
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: .25rem
+    border-radius: .25rem;
+    align-items: center;
 }
 
 .card>hr {
@@ -4880,8 +4880,7 @@ fieldset:disabled .btn {
 .card-img,
 .card-img-bottom,
 .card-img-top {
-    width: 200px;
-    margin-left: 100px;
+    width: 100%;
     margin-top: 20px;
 }
 
