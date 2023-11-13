@@ -1,0 +1,29 @@
+h1{
+	color:blue;
+	font-family: Arial;
+}
+
+
+.clase{
+	width: 50%;
+	margin: auto;
+	border: 2px solid black;
+}
+
+#identificador{
+	background-color: cyan;
+	color: blueviolet;
+	height: 100px
+}
+
+.highlight{
+	background: right / 0% 100% no-repeat
+	linear-gradient(#c1f5ee, #c1f5ee);
+
+	transition: background-size 500ms;
+}
+
+.highlight:hover{
+	background: left /100% 100% no-repeat
+	linear-gradient(#c1f5ee, #c1f5ee);
+}
